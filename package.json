@@ -1,0 +1,33 @@
+{
+  "name": "sails-generate-basic-views",
+  "version": "0.1.0",
+  "description": "Directly generate basic views from models in a Sails.js app",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "view",
+    "views",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "Yann Bertrand <yann@bertrand.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "basic-views",
+    "behavior": "default implementation of `sails generate basic-views`",
+    "sailsVersion": "~0.10.0"
+  }
+}
